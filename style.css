@@ -8,6 +8,7 @@ background-color: rgb(161, 190, 190);
     width:99%;
     padding: 1%;
     height:1000px;
+    border-radius: 0.9%;
     
 }
 #navbar{
@@ -15,24 +16,31 @@ background-color: rgb(161, 190, 190);
     width:auto;
     height: 47px;
     padding:10px;
-    background-color: rgb(115, 148, 172);
+    background-color: rgba(115, 148, 172, 0.541);
     font-size: 40px;
     align-items: right;
     font-family: Arial;
    
 }
-#SelectButton{
-    
-    width:200px;
-    height:100px;
-    color:rgb(0, 0, 0);
-    background-color: rgba(142, 198, 206, 0.863);
-    border: solid 2px rgba(95, 132, 151, 0);
-    border-radius: 10px;
-    padding: 0.5%;
-}
 
-#SelectButton:hover {
+.grid-container {
+    display: grid;
+  gap: 50px 100px;
+  grid-template-columns: auto auto;
+  background-color: #a1bbd1;
+  padding: 10px;
+}
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 70px;
+    text-align: center;
+    color: #292929;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .grid-item:hover {
     background-color:rgba(62, 62, 62, 0.863);
     color:white;
-  }
+}
