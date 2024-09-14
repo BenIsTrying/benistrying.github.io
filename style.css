@@ -10,6 +10,7 @@ background-color: rgb(161, 190, 190);
     height:1000px;
     border-radius: 0.9%;
     
+    
 }
 #navbar{
 
@@ -46,7 +47,18 @@ background-color: rgb(161, 190, 190);
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
   }
+ 
   .grid-item:hover {
     background-color:rgba(62, 62, 62, 0.863);
     color:white;
-}
+} 
+.grid-item-text {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 20px;
+    text-align: left;
+    color: #292929;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+  }
